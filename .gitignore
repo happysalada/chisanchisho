@@ -1,3 +1,14 @@
+.DS_Store
+
+# ElixirLS
+.elixir_ls
+
+# exdoc
+/doc
+
+# elm
+/assets/elm/elm-stuff
+
 # App artifacts
 /_build
 /db
