@@ -2,7 +2,22 @@ exports.config = {
   // See http://brunch.io/#documentation for docs.
   files: {
     javascripts: {
-      joinTo: "js/app.js"
+      joinTo: {
+        "js/app.js": /^(js)|(node_modules)/,
+        "js/vendor.js": [
+          'vendor/jquery/jquery.js',
+          'vendor/bootstrap/js/bootstrap.bundle.js',
+          'vendor/jquery-easing/jquery.easing.js',
+          'vendor/scrollreveal/scrollreveal.js',
+          'vendor/magnific-popup/jquery.magnific-popup.js'
+        ]
+      },
+      order: {
+        before: [
+          'vendor/jquery/jquery.js',
+          'vendor/bootstrap/js/bootstrap.js'
+        ]
+      }
 
       // To use a separate vendor.js bundle, specify two files path
       // http://brunch.io/docs/config#-files-
@@ -20,7 +35,14 @@ exports.config = {
       // }
     },
     stylesheets: {
-      joinTo: "css/app.css"
+      joinTo: {
+        "css/app.css": /^css/,
+        "css/vendor.css": [
+          'vendor/font-awesome/css/font-awesome.css',
+          'vendor/bootstrap/css/bootstrap.css',
+          'vendor/magnific-popup/magnific-popup.css'
+        ]
+      }
     },
     templates: {
       joinTo: "js/app.js"
