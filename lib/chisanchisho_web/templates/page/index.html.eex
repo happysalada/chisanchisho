@@ -34,7 +34,7 @@
         <hr>
       </div>
       <div class="col-lg-8 mx-auto">
-        <p class="text-faded mb-5">日本一住みやすい町印西市に当時野菜注文翌日配達サービス</p>
+        <p class="mb-5">日本一住みやすい町印西市に当時野菜注文翌日配達サービス</p>
         <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">詳細はこちら</a>
       </div>
     </div>
@@ -47,7 +47,7 @@
       <div class="col-lg-8 mx-auto text-center">
         <h2 class="section-heading text-white">田んぼから直接野菜を注文する</h2>
         <hr class="light my-4">
-        <p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
+        <p class="text-faded mb-4">昼間に注文して翌日に農家さんが収穫して配達するサービスです</p>
         <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">アカウントを作る、ログイン</a>
       </div>
     </div>
